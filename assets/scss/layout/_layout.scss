@@ -1,0 +1,28 @@
+body {
+	font-family: $font-stack;
+	font-size: $base-font-size;
+	color: $primary-color-white;
+	display: flex;
+	flex-direction: column;
+	background-color: $primary-bg-color;
+}
+
+.main-header,
+.main-header {
+	flex-shrink: 0;
+}
+
+.main-content {
+	display: flex;
+	flex: 1 0 auto;
+	flex-direction: column;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
