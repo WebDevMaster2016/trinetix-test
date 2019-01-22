@@ -1,11 +1,13 @@
+// partials
+@import "partials/mixins";
+@import "partials/fonts";
+@import "partials/settings";
+
 // reset default style
 @import "layout/reset";
 
-// settings
-@import "settings/settings";
+// layout style
+@import "layout/layout";
 
 // components
 @import "components/components";
-
-// layout style
-@import "layout/layout";

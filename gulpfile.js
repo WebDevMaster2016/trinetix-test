@@ -35,7 +35,7 @@ const path = {
 	}
 };
 
-// define settings for autoprefixer
+// define partials for autoprefixer
 const autoprefixerSettings = {
 	browsers: [
 		'last 2 versions',

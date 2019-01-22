@@ -1,5 +1,5 @@
 body {
-	font-family: $font-stack;
+	font-family: $base-font-family;
 	font-size: $base-font-size;
 	color: $primary-color-white;
 	display: flex;
@@ -7,9 +7,46 @@ body {
 	background-color: $primary-bg-color;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
 .main-header,
-.main-header {
+.main-footer {
 	flex-shrink: 0;
+}
+
+.main-header {
+	display: flex;
+	position: relative;
+	height: 70px;
+	border-bottom: 1px solid rgba(#003562, .3);
+
+	&:before {
+		content: ' ';
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 4px;
+		width: 100%;
+		background-color: #00abff;
+	}
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__logo,
+	&__nav {
+		align-self: center;
+	}
+
+	&__nav-list {
+		display: flex;
+	}
 }
 
 .main-content {

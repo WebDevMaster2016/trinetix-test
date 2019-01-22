@@ -1,0 +1,5 @@
+// add all web fonts via 'font-face' mixin
+@include font-face('PtSerif', ptserif, ptserif);
+@include font-face('DecimaNovaPro', decimanovapro, decimanovapro);
+@include font-face('DecimaNovaProBold', decimanovapro-bold, decimanovapro-bold);
+@include font-face('DecimaNovaProLight', decimanovapro-lt, decimanovapro-lt);
